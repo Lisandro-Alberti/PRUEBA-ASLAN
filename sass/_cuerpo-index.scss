@@ -1,0 +1,27 @@
+/*/////////////////////////////////CUERPO-PAG1////////////////////////////////////*/
+
+.fondo-inicio {
+    background-image: url(../assets/img/fondo-inicio.jfif)
+}
+body main .titulo h1 {
+    color: #ffffff;
+    font-size: 90px;
+    display: inline-block;
+}
+.titulo .equipo-color {
+    color: #ffff00;
+}
+
+.flex-pag1{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main .sub-titulo h2 {
+    color: #000000;
+    font-size: 45px;
+    display: inline-block;
+    border: 5px solid #ffff00;
+    background-color: #ffff00;
+}
