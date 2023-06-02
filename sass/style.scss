@@ -8,17 +8,17 @@
 
 
 
-
-
-
-
-
 /*//////////////////////////////////////////CUERPO-PAG2/////////////////////////////////////////////*/
 
 .fondo-nosotros {
-    background-color: #000000e0;
+    background-color: #000000ab;
 }
-
+.titulo-card{
+display: flex;
+.card-title{
+   font-size: 40px; 
+}
+}
 
 /*////////////////////////////////CUERPO-PAG3/////////////////////////////////GRILLAS//////////////////////////*/
 
@@ -170,15 +170,6 @@
 
 /*//////////////////////////////////////CUERPO-PAG5///////////////////////////////////////////*/
 
-
-.form {
-    background-image: url(../assets/img/Captura\ web_26-4-2023_0352_www.instagram.com.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
-
 @media (max-width: 740px) {
     footer div ul li{
         margin-left: 30px;
@@ -196,3 +187,13 @@
         display: block;
     }
 }
+@media (max-width: 1150px){
+    body main .titulo h1{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+

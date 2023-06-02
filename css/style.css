@@ -6,7 +6,6 @@ footer {
   align-items: center;
   width: 100%;
   height: 80px;
-  position: absolute;
   bottom: 0;
 }
 
@@ -43,14 +42,9 @@ a:hover {
   transition: 0.5s;
 }
 
-body {
-  position: relative;
-  min-height: 100vh;
-}
-
 /*/////////////////////////////////CUERPO-PAG1////////////////////////////////////*/
 .fondo-inicio {
-  background-image: url(../assets/img/fondo-inicio.jfif);
+  background-image: url(../assets/img/fondo-inicio-index/fondo-inicio.jfif);
 }
 
 body main .titulo h1 {
@@ -64,23 +58,35 @@ body main .titulo h1 {
 }
 
 .flex-pag1 {
-  padding-top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 85vh;
 }
 
-body main .sub-titulo h2 {
-  color: #000000;
-  font-size: 45px;
-  display: inline-block;
-  border: 5px solid #ffff00;
+.hover :hover {
+  color: #ffff00;
+}
+
+.unirme-color {
   background-color: #ffff00;
+}
+.unirme-color .letras {
+  font-size: 25px;
+  color: #000000;
+  padding: 0 5px;
 }
 
 /*//////////////////////////////////////////CUERPO-PAG2/////////////////////////////////////////////*/
 .fondo-nosotros {
-  background-color: rgba(0, 0, 0, 0.8784313725);
+  background-color: rgba(0, 0, 0, 0.6705882353);
+}
+
+.titulo-card {
+  display: flex;
+}
+.titulo-card .card-title {
+  font-size: 40px;
 }
 
 /*////////////////////////////////CUERPO-PAG3/////////////////////////////////GRILLAS//////////////////////////*/
@@ -222,13 +228,6 @@ body main .sub-titulo h2 {
 }
 
 /*//////////////////////////////////////CUERPO-PAG5///////////////////////////////////////////*/
-.form {
-  background-image: url(../assets/img/Captura\ web_26-4-2023_0352_www.instagram.com.jpeg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-}
-
 @media (max-width: 740px) {
   footer div ul li {
     margin-left: 30px;
@@ -243,6 +242,13 @@ body main .sub-titulo h2 {
 @media (max-width: 992px) {
   .carousel-media {
     display: block;
+  }
+}
+@media (max-width: 1150px) {
+  body main .titulo h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
 
