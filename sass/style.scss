@@ -1,13 +1,95 @@
-//IMPORTS
-//IMPORT FOOTER
-@import "footer";
-//IMPORT BODY
-@import "respaldo-css";
-//IMPORT INDEX
-@import "cuerpo-index";
 
+//repaldooooooooooooooooooooooooooooooooooooooooo
+* {
+    margin: 0;
+    padding: 0 ;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    user-select: none;
+    text-decoration: none;
+}
 
+a:hover{
+    color: #ffff00;
+    font-weight: bold;
+    transition: .5s;
+}
 
+.navbar-brand img{
+    height: 70px;
+    width: 70px;
+}
+.nav-item a{
+    font-size: 22px;
+    color: #ffffff;
+}
+.navbar-brand p{
+    display: inline;
+    font-size: 25px;
+    color: #ffff00;
+}
+///////////////////////////////////////////////*EDICION-FOOTER*/
+
+footer {
+    background-color: #ffff00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+}
+
+footer div img {
+    height: 30px;
+    width: 30px;
+}
+
+footer div ul li {
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+footer div ul{
+    margin: 0;
+}
+//indexxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+.fondo-inicio {
+    background-image: url(../assets/img/fondo-inicio-index/fondo-inicio.jfif)
+}
+body main .titulo h1 {
+    color: #ffffff;
+    font-size: 90px;
+    display: inline-block;
+    
+}
+.titulo .equipo-color {
+    color: #ffff00;
+}
+
+.flex-pag1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
+    margin: 0;
+    justify-content: center;
+}
+.hover :hover{
+    color:#ffff00;
+}
+.unirme-color {
+    background-color: #ffff00;
+    .letras{
+        font-size: 25px;
+        color: #000000;
+        padding: 0 5px;
+    }
+}
 /*//////////////////////////////////////////CUERPO-PAG2/////////////////////////////////////////////*/
 
 .fondo-nosotros {
@@ -138,7 +220,7 @@
 }
 
 .card figcaption p {
-    font-size: 19px;
+    font-size: 15px;
     color: #ffff00;
 }
 
@@ -156,28 +238,41 @@
 .horar {
     background-color: #808080;
     height: 90vh;
+    h1{
+        display: flex;
+        font-size: 60px;
+        justify-content: center;
+        padding: 20px 0;
+        color: #ffff00
+    }
+    .horarios-caja button{
+        margin-top: 20px;
+        font-size: 25px;
+        font-family: system-ui;
+        justify-content: flex-start;
+        color: #f0ffff;
+    }
+    .accordion-button::after{
+        justify-content: end;
+    }
+    .accordion-body{
+        background-color: #ffff00;
+    }
+}
+.accordion-body{
+    p{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .turnos-horarios{
+        font-size: 23px;
+        text-align: center;
+    }
+
 }
 
-.horar h1{
-    display: flex;
-    font-size: 60px;
-    justify-content: center;
-    padding: 20px 0;
-    color: #ffff00
-}
-.navbar-brand img{
-    height: 70px;
-    width: 70px;
-}
-.nav-item a{
-    font-size: 22px;
-    color: #ffffff;
-}
-.navbar-brand p{
-    display: inline;
-    font-size: 25px;
-    color: #ffff00;
-}
+
 
 /*//////////////////////////////////////CUERPO-PAG5///////////////////////////////////////////*/
 
@@ -256,6 +351,5 @@
         margin-bottom: 30px;
     }
 }
-
 
 

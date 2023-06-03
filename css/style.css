@@ -1,4 +1,35 @@
-/*EDICION-FOOTER*/
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  user-select: none;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffff00;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: 70px;
+}
+
+.nav-item a {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.navbar-brand p {
+  display: inline;
+  font-size: 25px;
+  color: #ffff00;
+}
+
 footer {
   background-color: #ffff00;
   display: flex;
@@ -26,23 +57,6 @@ footer div ul {
   margin: 0;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  user-select: none;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ffff00;
-  font-weight: bold;
-  transition: 0.5s;
-}
-
-/*/////////////////////////////////CUERPO-PAG1////////////////////////////////////*/
 .fondo-inicio {
   background-image: url(../assets/img/fondo-inicio-index/fondo-inicio.jfif);
 }
@@ -202,7 +216,7 @@ body main .titulo h1 {
 }
 
 .card figcaption p {
-  font-size: 19px;
+  font-size: 15px;
   color: #ffff00;
 }
 
@@ -215,7 +229,6 @@ body main .titulo h1 {
   background-color: #808080;
   height: 90vh;
 }
-
 .horar h1 {
   display: flex;
   font-size: 60px;
@@ -223,21 +236,28 @@ body main .titulo h1 {
   padding: 20px 0;
   color: #ffff00;
 }
-
-.navbar-brand img {
-  height: 70px;
-  width: 70px;
-}
-
-.nav-item a {
-  font-size: 22px;
-  color: #ffffff;
-}
-
-.navbar-brand p {
-  display: inline;
+.horar .horarios-caja button {
+  margin-top: 20px;
   font-size: 25px;
-  color: #ffff00;
+  font-family: system-ui;
+  justify-content: flex-start;
+  color: #f0ffff;
+}
+.horar .accordion-button::after {
+  justify-content: end;
+}
+.horar .accordion-body {
+  background-color: #ffff00;
+}
+
+.accordion-body p {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+.accordion-body .turnos-horarios {
+  font-size: 23px;
+  text-align: center;
 }
 
 /*//////////////////////////////////////CUERPO-PAG5///////////////////////////////////////////*/
