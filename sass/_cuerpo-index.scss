@@ -18,6 +18,8 @@ body main .titulo h1 {
     flex-direction: column;
     align-items: center;
     min-height: 85vh;
+    margin: 0;
+    justify-content: center;
 }
 .hover :hover{
     color:#ffff00;
