@@ -1,0 +1,38 @@
+/*///////////////////////////////////////////////CUERPO-PAG4////////////////////////////////////*/
+
+.horar {
+    background-color: #808080;
+    height: 90vh;
+    h1{
+        display: flex;
+        font-size: 60px;
+        justify-content: center;
+        padding: 20px 0;
+        color: #ffff00
+    }
+    .horarios-caja button{
+        margin-top: 20px;
+        font-size: 25px;
+        font-family: system-ui;
+        justify-content: flex-start;
+        color: #f0ffff;
+    }
+    .accordion-button::after{
+        justify-content: end;
+    }
+    .accordion-body{
+        background-color: #ffff00;
+    }
+}
+.accordion-body{
+    p{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .turnos-horarios{
+        font-size: 23px;
+        text-align: center;
+    }
+
+}

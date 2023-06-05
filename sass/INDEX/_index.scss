@@ -1,0 +1,33 @@
+//index////////////////////////////////////////////////////////////////////
+
+.fondo-inicio {
+    background-image: url(../assets/img/fondo-inicio-index/fondo-inicio.jfif)
+}
+.flex-pag1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
+    margin: 0;
+    justify-content: center;
+
+    h1 {
+        color: #ffffff;
+        font-size: 90px;
+        display: inline-block;
+    }
+    .titulo .equipo-color {
+        color: #ffff00;
+    }
+    .hover :hover{
+        color:#ffff00;
+    }
+    .unirme-color {
+        background-color: #ffff00;
+        .letras{
+            font-size: 25px;
+            color: #000000;
+            padding: 0 5px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+/*//////////////////////////////////////CUERPO-PAG5///////////////////////////////////////////*/
+
+.bg-contacto{
+    background-color: #808080;
+    min-height: 83vh;
+    margin: 0;
+    h1{
+        text-align: center;
+        font-size: 50px;
+        color: #ffff00;
+        margin-bottom: 10px;
+    }
+
+    .form-contacto {
+        display: inline-block;
+        width: 400px;
+        text-align: left;
+        padding: 5px;
+        border: 2px solid #000000;
+        border-radius: 5px;
+        background-color: #ffff00;
+        margin: 30px 20px;
+      }
+
+      label {
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+      
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    .contenedor-contacto{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+    }
+  }
