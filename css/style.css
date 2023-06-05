@@ -39,12 +39,6 @@ footer {
   height: 80px;
   bottom: 0;
 }
-
-footer div img {
-  height: 30px;
-  width: 30px;
-}
-
 footer div ul li {
   display: inline-block;
   font-size: 15px;
@@ -52,23 +46,16 @@ footer div ul li {
   justify-content: center;
   margin-left: 100px;
 }
-
+footer div img {
+  height: 30px;
+  width: 30px;
+}
 footer div ul {
   margin: 0;
 }
 
 .fondo-inicio {
   background-image: url(../assets/img/fondo-inicio-index/fondo-inicio.jfif);
-}
-
-body main .titulo h1 {
-  color: #ffffff;
-  font-size: 90px;
-  display: inline-block;
-}
-
-.titulo .equipo-color {
-  color: #ffff00;
 }
 
 .flex-pag1 {
@@ -79,15 +66,21 @@ body main .titulo h1 {
   margin: 0;
   justify-content: center;
 }
-
-.hover :hover {
+.flex-pag1 h1 {
+  color: #ffffff;
+  font-size: 90px;
+  display: inline-block;
+}
+.flex-pag1 .titulo .equipo-color {
   color: #ffff00;
 }
-
-.unirme-color {
+.flex-pag1 .hover :hover {
+  color: #ffff00;
+}
+.flex-pag1 .unirme-color {
   background-color: #ffff00;
 }
-.unirme-color .letras {
+.flex-pag1 .unirme-color .letras {
   font-size: 25px;
   color: #000000;
   padding: 0 5px;
@@ -131,6 +124,13 @@ body main .titulo h1 {
   margin-bottom: 20px;
   justify-items: center;
   grid-template-areas: "act-h1 act-h1 act-h1" "img1 img2 img3" "img4 img5 img6" "img7 img8 img9";
+}
+.contenedor-grillas .act-h1 {
+  font-size: 70px;
+  color: #ffff00;
+}
+.contenedor-grillas .nuestras-titulo {
+  color: #ffffff;
 }
 
 .act-h1 {
@@ -178,17 +178,7 @@ body main .titulo h1 {
   width: 400px;
   height: 210px;
 }
-
-.contenedor-grillas .act-h1 {
-  font-size: 70px;
-  color: #ffff00;
-}
-
-.contenedor-grillas .nuestras-titulo {
-  color: #ffffff;
-}
-
-.card {
+.act-fondo .card {
   width: 400px;
   height: 210px;
   display: grid;
@@ -196,31 +186,26 @@ body main .titulo h1 {
   grid-template-areas: "stack";
   overflow: hidden;
 }
-
-.card img,
-.card figcaption {
+.act-fondo .card img,
+.act-fondo .card figcaption {
   grid-area: stack;
 }
-
-.card figcaption {
+.act-fondo .card figcaption {
   background-color: rgba(36, 36, 36, 0.8784313725);
   transform: translateY(calc(100% - 40px));
   transition: transform 0.6s;
   color: #f0ffff;
   text-align: center;
 }
-
-.card figcaption h3 {
+.act-fondo .card figcaption h3 {
   height: 40px;
   font-size: 30px;
 }
-
-.card figcaption p {
+.act-fondo .card figcaption p {
   font-size: 15px;
   color: #ffff00;
 }
-
-.card:hover figcaption {
+.act-fondo .card:hover figcaption {
   transform: none;
 }
 
@@ -388,6 +373,11 @@ body main .titulo h1 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 30px;
+  }
+}
+@media (min-width: 425px) and (max-width: 644px) {
+  .bg-contacto .contenedor-contacto {
+    margin-left: 60px;
   }
 }
 
