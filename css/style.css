@@ -354,11 +354,7 @@ footer div ul {
     font-size: 55px;
     text-align: center;
   }
-  .act-fondo img {
-    width: 60vw;
-    height: 300px;
-  }
-  .act-fondo img .card {
+  .contenedor-grillas img, .contenedor-grillas .card {
     width: 60vw;
     height: 300px;
   }

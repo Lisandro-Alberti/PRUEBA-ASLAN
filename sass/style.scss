@@ -83,18 +83,17 @@
             "img7" "img8" "img9"
         ;
     }
-    .contenedor-grillas .act-h1{
-        font-size: 55px;
-        text-align: center;
-    }
-    .act-fondo img {
-        width: 60vw;
-        height: 300px;
-        .card {
+    .contenedor-grillas {
+        .act-h1{
+            font-size: 55px;
+            text-align: center;
+        }
+        img , .card{
             width: 60vw;
             height: 300px;
         }
     }
+
 }
 
 @media (max-width: 465px) {
