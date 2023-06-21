@@ -42,6 +42,7 @@
       input[type="submit"] {
         background-color: #4caf50;
         color: white;
+        font-size: 22px;
         padding: 12px 20px;
         border: none;
         border-radius: 4px;
@@ -55,5 +56,9 @@
         display: flex;
         margin: 0 auto;
         justify-content: center;
+        align-items: center;
+        iframe{
+          border-radius: 25px;
+        }
     }
   }

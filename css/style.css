@@ -9,7 +9,7 @@ footer {
 }
 footer div ul li {
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   justify-content: center;
   margin-left: 100px;
@@ -28,13 +28,13 @@ footer div ul {
 }
 
 .nav-item a {
-  font-size: 22px;
+  font-size: 25px;
   color: #ffffff;
 }
 
 .navbar-brand p {
   display: inline;
-  font-size: 25px;
+  font-size: 28px;
   color: #ffff00;
 }
 
@@ -53,6 +53,10 @@ footer div ul {
   text-decoration: none;
 }
 
+.font-body {
+  font-family: "Oswald", sans-serif;
+}
+
 .fondo-inicio {
   background-image: url(../assets/img/fondo-inicio-index/fondo-inicio.jfif);
 }
@@ -67,7 +71,7 @@ footer div ul {
 }
 .flex-pag1 h1 {
   color: #ffffff;
-  font-size: 90px;
+  font-size: 95px;
   display: inline-block;
 }
 .flex-pag1 .titulo .equipo-color {
@@ -80,7 +84,7 @@ footer div ul {
   background-color: #ffff00;
 }
 .flex-pag1 .unirme-color .letras {
-  font-size: 25px;
+  font-size: 30px;
   color: #000000;
   padding: 0 5px;
 }
@@ -284,6 +288,7 @@ footer div ul {
 .bg-contacto input[type=submit] {
   background-color: #4caf50;
   color: white;
+  font-size: 22px;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -296,6 +301,10 @@ footer div ul {
   display: flex;
   margin: 0 auto;
   justify-content: center;
+  align-items: center;
+}
+.bg-contacto .contenedor-contacto iframe {
+  border-radius: 25px;
 }
 
 @media (min-width: 320px) and (max-width: 740px) {
@@ -336,6 +345,7 @@ footer div ul {
     width: 300px;
     height: 350px;
     margin: 10px 10px;
+    border-radius: 15px;
   }
   .bg-contacto .contenedor-contacto .form-contacto {
     width: 300px;
@@ -363,6 +373,10 @@ footer div ul {
   footer div ul li, p {
     font-size: 12px;
     margin-left: 0;
+    margin: 4px;
+  }
+  .horar {
+    height: fit-content;
   }
 }
 @media (max-width: 992px) {
